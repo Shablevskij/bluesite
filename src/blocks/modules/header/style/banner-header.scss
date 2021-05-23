@@ -4,7 +4,53 @@
 .bg_clouds{
     height: 600px;
     background: #e6f7fe url(../../img/img_cloud.png) no-repeat center;
-    padding-top: 45px;
+    
+    .banener-info{
+    padding-top: 20px;
+    position: relative;
+    .girl-img{
+        display: block;
+        height: 465px;
+        width: 325px;
+        position: absolute;
+        left: 780px;
+        top: 90px;
+        z-index: 4;
+    }
+    .form-bg{
+        display: grid;
+        grid-template-columns: repeat(5,1fr);
+        height: 150px;
+        width: 100%;
+        background-color:#03a9f4;
+        position: absolute;
+        bottom: -215px;
+        z-index: 3;
+        .form-group{
+            width: 202px;
+            height: 50px;
+            margin-left: 30px;
+            margin-top: 30px;
+            label{
+                font-family: Poppins;
+                font-size: 13px;
+                line-height: 1.2;
+                font-weight: 500;
+                color: #ffffff;
+            }
+        }
+        .btn-primaryl{
+            width: 202px;
+            height: 50px;
+            background-color: #0287c3;
+            font-family: Poppins;
+            font-size: 14px;
+            line-height: 1.2;
+            font-weight: 500;
+            color: #ffffff;
+            margin-top: 60px;
+        }
+    }
     p{
         font-family: Poppins;
         font-size: 20px;
@@ -126,7 +172,7 @@
     .slider > a {
     display: inline-flex;
     width: 9.4rem;
-    height: 0.3rem;
+    height: 0.2rem;
     background: rgb(177, 177, 177);
     text-decoration: none;
     align-items: center;
@@ -141,5 +187,8 @@
     .slider > a:focus {
     background: #000;
     }
+
+    }
+    
     
 }
