@@ -1,0 +1,59 @@
+
+.bg-top{
+    height: 100px;
+    background-color:#03a9f4;
+
+}
+.top-all{
+    display: flex;
+    justify-content: space-evenly;
+}
+.logo{
+    padding-top: 15px;
+   
+    img{
+        float: left;
+        margin-right: 5px;
+        cursor: pointer;
+        
+    }
+    a{
+        display: grid;
+        grid-template-columns: repeat(1,2fr);
+        width: 400px;
+        text-decoration: none;
+        font-family: Gabriola;
+        font-size: 39px;
+        line-height: 1.2;
+        font-weight: 400;
+        color: #ffffff;
+        
+        
+/* Text styles for "essay" */
+/* 
+Text styles for "essay"
+ */
+        .yelow_ls{
+            font-family: Poppins;
+            font-size: 20px;
+            text-transform: uppercase;
+            color: #ecfa4d;
+        }
+        .dot_net{
+            font-family: Poppins;
+            font-size: 13px;
+            font-weight: 300;
+        }
+        h6{
+            font-family: 'Open Sans';
+            font-size: 13px;
+            line-height: 3px;
+            font-weight: 400;
+            letter-spacing: 0.02em;
+            color: #ffffff;
+        }
+
+
+
+    }
+}

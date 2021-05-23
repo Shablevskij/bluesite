@@ -1,0 +1,26 @@
+//colors
+$primary-1:#03a9f3;
+
+
+
+
+
+
+
+
+//primary -1
+$p1-l1:mix(#fff,$primary-1,40%);
+$p1-l2:mix(#fff,$primary-1,75%);
+$p1-l3:mix(#fff,$primary-1,90%);
+
+$p1-d1:mix(#000,$primary-1,40%);
+$p1-d2:mix(#000,$primary-1,75%);
+$p1-d3:mix(#000,$primary-1,90%);
+
+
+$btn-color:(
+    normal:$primary-1,
+    hover:$p1-d1,
+    active:orange,
+    disabled:$p1-l1
+);

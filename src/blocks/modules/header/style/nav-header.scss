@@ -1,0 +1,69 @@
+.menu{
+    
+    .bar_menu{
+        display: flex;
+        justify-content: space-between;
+        width: 600px;
+       
+        
+        li{
+            list-style-type: none;
+            .dropdown{
+                .btn{
+                    font-family: Poppins;
+                    font-size: 12px;
+                    margin-top: 35px;
+                    font-weight: 600;
+                    text-transform: uppercase;
+                    letter-spacing: 0.02em;
+                    color: #ffffff;
+                    background:none;
+                    border:none;
+                    
+                }
+  
+            
+
+            }
+        }
+
+    }
+    .phone-icon{
+        margin-top: 30px;
+        margin-left: 15px;
+        margin-right: 20px;
+    }
+    .btn-head{
+        width: 100px;
+        height: 40px;
+        background-color: #0287c3;
+        border: 1px solid #1088c7;
+        margin-right: 10px;
+        margin-top: 27px;
+        a{
+            text-decoration: none;
+            font-family: Poppins;
+            font-size: 12px;
+            line-height: 1.2;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.02em;
+            color: #ffffff;
+        }
+        
+    }
+    .btn-headActive{
+        width: 100px;
+        height: 40px;
+        background-color: #f75e2e;
+    }
+    .pos-f-t{
+        margin-top: 19px;
+        border:none;
+    }
+   
+    
+    
+   
+}
+
