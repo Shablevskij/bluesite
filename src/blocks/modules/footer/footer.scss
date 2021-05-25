@@ -61,25 +61,44 @@ hr{
         }
     }
     .comunication{
-        p{
+        
+            li{
+                width: 250px;
+                padding: 10px;
+                p{
 
-            font-family: 'Museo Sans';
-            font-size: 13px;
-            line-height: 21px;
-            font-weight: 500;
-            color: #ffffff;
+                    font-family: 'Museo Sans';
+                    font-size: 13px;
+                    line-height: 21px;
+                    font-weight: 500;
+                    color: #ffffff;
+        
+                    font-family: 'Myriad Pro';
+                    font-weight: 400;
+        
+                }
+                span{
+                    font-family: Poppins;
+                    font-size: 16px;
+                    line-height: 16px;
+                    font-weight: 400;
+                    text-transform: uppercase;
+                    color: #ffffff;
+                }
+                
+                img{
+                    float: left;
+                    margin-right: 10px ;
+                    
+                }
+                i:hover{
+                    cursor: pointer;
+                    background-color:rgb(247, 106, 41);
 
-            font-family: 'Myriad Pro';
-            font-weight: 400;
-
-        }
-        span{
-            font-family: Poppins;
-            font-size: 16px;
-            line-height: 16px;
-            font-weight: 400;
-            text-transform: uppercase;
-            color: #ffffff;
-        }
+                }
+            }
+        
+    
+        
     }
 }
