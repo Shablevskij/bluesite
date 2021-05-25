@@ -237,7 +237,7 @@
                 }
             }
             li:hover{
-                background-color:rgb(255, 255, 119);
+                background-color:#e2f55d;
                 cursor: pointer;
             }
         }
@@ -325,4 +325,37 @@
             }
         }
     }
+}
+.clients{
+   
+        height: 483px;
+        background-color: #ffffff;
+        margin-top: 400px;
+        text-align: center;
+        .carousel-item{
+            p{
+                font-family: Poppins;
+                font-size: 14px;
+                line-height: 22px;
+                font-weight: 300;
+                color: #51555a;
+            }
+        }
+        span{
+            font-family: Poppins;
+            font-size: 15px;
+            line-height: 1.2;
+            font-weight: 400;
+            color: #0287c3;
+        }
+        h3{
+            font-family: Poppins;
+            font-size: 33px;
+            line-height: 1.2;
+            font-weight: 500;
+            color: #323538;
+            margin: 20px;
+        }
+        
+        
 }
